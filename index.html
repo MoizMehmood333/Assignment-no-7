@@ -5,15 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-  
 </head>
 <body>
-   
-   
-   
-   
-   
-</body>
-</html>
 
+<!-- Calculator -->
+
+<div class="main">
+    <div>
+        <input type="text" name="" id="result" class="input">
+    </div>
+    <div>
+        <button class="clear" onclick="clearResult()">C</button>
+    </div>
+    <div class="first">
+        <button class="firstele" onclick="getNum('7')">7</button>
+        <button class="firstele" onclick="getNum('8')">8</button>
+        <button class="firstele" onclick="getNum('9')">9</button>
+        <button class="firstele" onclick="getNum('*')">x</button>
+    </div >
+    <div class="second">
+        <button class="secondele" onclick="getNum('4')">4</button>
+        <button class="secondele" onclick="getNum('5')">5</button>
+        <button class="secondele" onclick="getNum('6')">6</button>
+        <button class="secondele" onclick="getNum('-')">-</button>
+    </div>
+    
+    <div class="third">
+        <button class="thirdele" onclick="getNum('1')">1</button>
+        <button class="thirdele" onclick="getNum('2')">2</button>
+        <button class="thirdele" onclick="getNum('3')">3</button>
+        <button class="thirdele" onclick="getNum('+')">+</button>
+    </div>
+
+
+    <div class="4th">
+        <button class="fourthele" onclick="getNum('0')">0</button>
+        <button class="fourthele" onclick="getResult()">=</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
