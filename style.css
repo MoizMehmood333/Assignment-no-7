@@ -1,0 +1,153 @@
+.main{
+    border: 1px solid rgb(163, 163, 163);
+    width: 250px;
+    background-color: rgb(241, 241, 241);
+}
+
+.input{
+    width: 238px;
+    height: 48px;
+    margin-left: 4px;
+    margin-top: 4px;
+
+    background-color: rgb(238, 239, 239);
+    text-align: right;
+    border-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.input:hover{
+    background-color: rgb(227, 228, 228);
+    text-align: right;
+    border-style: none;
+
+}
+.input:focus{
+    background-color: rgb(238, 239, 239);
+    text-align: right;
+    border: rgb(227, 228, 228) solid 1px ;
+    outline: none;
+
+}
+
+
+.clear{
+    width: 240px;
+    height: 35px;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(245,246,246);
+    border-style: none;
+    font-size: 20px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clear:hover{
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    border-style: none;
+}
+
+.clear:focus{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border: 0px solid white;
+    outline: none;
+}
+
+.firstele{
+    width: 51px;
+    height: 32px;
+    margin: 4px;
+    background-color: rgb(249, 247, 247);
+    border-style: none;
+    font-size: 20px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstele:hover{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border-style: none;
+}
+
+.firstele:focus{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border: 0px solid white;
+    outline: none;
+}
+
+.secondele{
+    width: 51px;
+    height: 32px;
+    margin: 4px;
+    background-color: rgb(249, 247, 247);
+    border-style: none;
+    font-size: 20px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secondele:hover{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border-style: none;
+}
+
+.secondele:focus{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border: 0px solid white;
+    outline: none;
+}
+
+
+.thirdele{
+    width: 51px;
+    height: 32px;
+    margin: 4px;
+    background-color: rgb(249, 247, 247);
+    border-style: none;
+    font-size: 20px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thirdele:hover{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border-style: none;
+}
+
+.thirdele:focus{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border: 0px solid white;
+    outline: none;
+}
+
+.fourthele{
+    width: 115px;
+    height: 32px;
+    margin: 4px;
+    margin-bottom: 6px;
+    background-color: rgb(249, 247, 247);
+    border-style: none;
+    font-size: 20px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fourthele:hover{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border-style: none;
+}
+
+.fourthele:focus{
+    background-color: rgb(227, 228, 228);
+    text-align: center;
+    border: 0px solid white;
+    outline: none;
+}
